@@ -1,0 +1,16 @@
+//Declaring New Color
+$potato: #c28d1a;
+
+$theme-colors: (
+  //Changing Existing Colors
+  "primary": #00c0d9,
+  "danger": #e24e46,
+  //Adding The New Colors
+  "potato": $potato
+);
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+body{
+  background: $danger;
+}
